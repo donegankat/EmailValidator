@@ -1,0 +1,2 @@
+AGoodEmailAddress@stuff.com
+ABadEmailAddress @stuff.com
