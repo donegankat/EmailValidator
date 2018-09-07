@@ -6,6 +6,8 @@ Email addresses can be provided by replacing the contents of [/SourcesToCheck/Em
 ## Mailgun Notes
 By default this program currently only performs the regular expression and SMTP validation checks. Some tweaking would be necessary to add the Mailgun API validation in but the fundamental framework is in place and worked fine in testing.
 
+Essentially, a call to `_validateMailgun(splitList)` would just need to be added in as a step inside of the main method, and you would need to tweak the formatting of the `Console.WriteLine` output to suit your needs.
+
 If you do want to add validation via the Mailgun API, you must provide your own public Mailgun API key in place of:
 
 `private static string _mailgunApiKey = "YOUR_PUBLIC_API_KEY_HERE";`
